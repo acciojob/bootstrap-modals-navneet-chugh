@@ -1,2 +1,19 @@
-
 /* Your CSS Code here. */
+/* Optional custom styles for the modal */
+.modal {
+  /* Make the modal overlay semi-transparent */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-dialog {
+  /* Center the modal vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.modal-content {
+  /* Add optional border-radius to the modal */
+  border-radius: 8px;
+}
